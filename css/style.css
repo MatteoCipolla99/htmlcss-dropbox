@@ -60,7 +60,7 @@
     TYPOGRAPHY
 ------------------*/
 body {
-    font-family: "Roboto", serif;
+    font-family: "Open Sans", sans-serif;
 }
 
 /*----------------
@@ -87,6 +87,23 @@ body {
 /*----------------
     HEADER
 ------------------*/
+header {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-left{
+
+}
+
+.li {
+ text-decoration: none;
+ list-style: none;     
+}
+
+
 
 /*----------------
     MAIN
