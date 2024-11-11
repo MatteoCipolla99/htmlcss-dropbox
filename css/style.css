@@ -320,7 +320,7 @@ padding-top: 3px;
     width: 70%;
 }
 
-.flex-botton{
+.botton{
     display: flex;
     justify-content: space-between;
 }
@@ -344,6 +344,41 @@ padding-top: 3px;
 
 .text-right > p{
     padding: 20px 0;
+}
+
+.row{
+    width: calc((100% - 100px) / 3);
+}
+
+.cont-row{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;  
+    margin-bottom: 210px;
+}
+
+.big-title{
+    font-size: 35px;
+    margin-bottom: 75px ;
+}
+
+.p-row{
+    font-size: 14px;
+    margin-top: 40px; 
+}
+
+.img-row > img{
+    width: 100%;
+}
+
+.img-row{
+    margin-bottom: 25px;
+}
+
+.title-last-cont{
+    width: 70%;
+    font-size: 40px;
+    margin-bottom: 70px;
 }
 
 
