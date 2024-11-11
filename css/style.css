@@ -325,6 +325,27 @@ padding-top: 3px;
     justify-content: space-between;
 }
 
+.photo-paragraph{
+    display: flex;
+}
+
+.photo-left{
+    width: 100%;
+}
+
+.photo-left > img{
+    width: 100%;
+}
+
+.text-right{
+    width: 70%;
+    padding: 55px;
+}
+
+.text-right > p{
+    padding: 20px 0;
+}
+
 
 
 
